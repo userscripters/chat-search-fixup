@@ -6,7 +6,7 @@
     "test": "mocha",
     "lint": "eslint src --fix --ext .js,.ts",
     "clean": "rm -rf dist",
-    "prebuild": "npm run test && npm run lint && npm run clean",
+    "prebuild": "npm run lint && npm run clean",
     "uglify-modern": "uglifyjs dist/modern/* --compress --mangle -o dist/modern/index.min.js",
     "uglify-legacy": "uglifyjs dist/legacy/* --compress --mangle -o dist/legacy/index.min.js",
     "build-modern": "tsc --outDir dist/modern && npm run uglify-modern",
