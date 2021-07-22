@@ -5,7 +5,7 @@
 // @homepage        https://github.com/userscripters/chat-search-fixup#readme
 // @match           https://chat.stackexchange.com
 // @match           https://chat.stackoverflow.com
-// @name            chat--search-fixup
+// @name            chat-community-search-fixup
 // @namespace       userscripters
 // @source          git+https://github.com/userscripters/chat-search-fixup.git
 // @supportURL      https://github.com/userscripters/chat-search-fixup/issues
